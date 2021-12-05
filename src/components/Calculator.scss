@@ -22,10 +22,13 @@
         border-radius: 2rem; 
     }
     .calc-opt{
-        
+        padding: 10px;
         width:50%;
         margin:0 auto ;
-        .fragment{
+        border: 2px solid black;
+        border-radius: 10px;
+        .fragment{ 
+        
         margin: auto;
          display: grid;
          grid-template-columns: 2fr 2fr 2fr;
@@ -62,7 +65,7 @@
          grid-template-columns: 2fr 2fr 2fr 2fr;
       }
   button{
-    margin: 5px;
+    
     width: 20%;
     border: 2px solid orange;
     color: black;
