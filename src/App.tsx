@@ -1,18 +1,13 @@
-
-import './App.scss';
-
 import React from "react";
+import "./App.scss";
+import Calculator from "../src/components/calculator/Calculator";
 
-import Calculator from "./components/Calculator";
-
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <main>
-        <Calculator />
-      </main>
+      <Calculator />
     </div>
-  );
-}
+  )
+};
 
 export default App;
